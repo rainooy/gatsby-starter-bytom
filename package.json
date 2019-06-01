@@ -1,0 +1,42 @@
+{
+  "name": "bytom",
+  "private": true,
+  "description": "<%= proj_des %>",
+  "version": "0.0.1",
+  "author": "@bytom",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-plugin-styled-components": "^1.10.0",
+    "core-js": "2.x",
+    "date-fns": "^1.30.1",
+    "gatsby": "^2.3.3",
+    "gatsby-image": "^2.0.35",
+    "gatsby-plugin-favicon": "^3.1.6",
+    "gatsby-plugin-manifest": "^2.0.25",
+    "gatsby-plugin-react-helmet": "^3.0.11",
+    "gatsby-plugin-sharp": "^2.0.32",
+    "gatsby-plugin-sitemap": "^2.0.12",
+    "gatsby-plugin-styled-components": "^3.0.7",
+    "gatsby-source-filesystem": "^2.0.28",
+    "gatsby-transformer-sharp": "^2.1.17",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.4.2",
+    "querystringify": "^2.1.1",
+    "react": "^16.8.6",
+    "react-content-loader": "^4.2.1",
+    "react-dom": "^16.8.5",
+    "react-helmet": "^5.2.0",
+    "styled-components": "^4.2.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "npm run dev",
+    "start": "npm run dev",
+    "dev": "gatsby develop -H 0.0.0.0 -p 8128",
+    "format": "prettier --write \"src/**/*.js\""
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  }
+}
